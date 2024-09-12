@@ -59,13 +59,13 @@ export default function WeatherApp() {
             />
           </div>
           <div className="hour">
-            <p>20:00</p>
-            <Image
+              <p>20:00</p>
+              <Image
               src="/img/coucherdesoleil.png"
               alt="Coucher de soleil"
               width={30}
               height={30}
-            />
+              />
           </div>
           <div className="hour">
             <p>00:00</p>

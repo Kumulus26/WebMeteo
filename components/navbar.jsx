@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {
   Navbar,
   Typography,
@@ -51,7 +52,7 @@ export function NavbarDark() {
             color="white"
             className="!absolute right-1 top-1 rounded"
           >
-            Go !
+          <Image src="/img/search.png" alt="Rechercher" width={15} height={15} />
           </Button>
         </div>
       </div>
